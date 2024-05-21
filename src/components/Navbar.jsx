@@ -10,6 +10,7 @@ const Navbar = () => {
     { name: "PROJECTS", link: "#projects" },
     { name: "CONTACT", link: "#contact" },
   ];
+  
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const nav = document.querySelector("nav");
